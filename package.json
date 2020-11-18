@@ -1,0 +1,22 @@
+{
+  "name": "node-backend-task",
+  "version": "1.0.0",
+  "description": "Towards task submission - Josharsh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Harsh Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "os": "^0.1.1",
+    "stream-json": "^1.7.1",
+    "string-similarity": "^4.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
