@@ -2,7 +2,7 @@
 Towards assignment submission - KonfHub Technologies by Harsh Joshi
 
 # API Documentation
-| Status        | Data                                           Path        | EndPoint						  |
+| Status        | Data                                           Path        | EndPoint						                                |
 | ------------- | -------------------------------------  | ----------------- |----------------------------------------------------|
 | :green_heart: | Human Readable Format : (GET)          | /search           | /search                                            |
 | :green_heart: | Find Duplicates: (GET)                 | /duplicate        | /duplicate                                         |
