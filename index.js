@@ -65,6 +65,21 @@ app.get("/nearduplicate",function(req,res){
                 }
         }
     }
+    for(let i=0;i<json["free"].length;++i){
+        for(let j=i+1;j<json["free"].length;++j){
+            let first = JSON.stringify(json["free"][i]);
+            let second = JSON.stringify(json["free"][j]);
+            let similarity = stringSimilarity.compareTwoStrings(first,second);
+            if(similarity>0.7 && similarity!=1 ){
+                let obj={
+                    first_similar:json["free"][i],
+                    second_similar:json["free"][j]
+                };
+                output.push(obj);
+               
+            }
+    }
+}
            res.send(output);
 }) 
 });
